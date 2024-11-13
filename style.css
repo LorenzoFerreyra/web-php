@@ -1,0 +1,68 @@
+:root {
+    --space-cadet: #22223bff;
+    --ultra-violet: #4a4e69ff;
+    --rose-quartz: #9a8c98ff;
+    --pale-dogwood: #c9ada7ff;
+    --isabelline: #f2e9e4ff;
+}
+
+#contenedor-principal {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
+
+#imagen-lateral {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    object-fit: cover;
+    height: 900px;
+    color: #f2e9e4ff;
+    background-color: #22223bff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.imagen {
+    position: relative;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#cuerpo {
+    display: grid;
+    grid-template-columns: repeat(2 minmax(0, 1fr));
+    gap: 3rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.sociologos {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    padding: 3rem;
+}
+
+.sociologos>div>img {
+    width: 325px;
+    height: 350px;
+    object-fit: cover;
+}
+
+main {
+    background-color: var(--space-cadet);
+}
+
+#cuerpo {
+    background-color: var(--rose-quartz);
+}
+
+footer,
+header {
+    padding: 2.1rem;
+
+}
