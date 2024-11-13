@@ -1,1 +1,1 @@
-A simple HTML/JS/CSS starter template
+Web sociológica, Programación I 2024
